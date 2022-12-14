@@ -4,6 +4,10 @@
 
 |   Info      |        Description     |
 | ----------- | ---------------------- |
+
+<!-- | TeamID      |        Team-065        |
+| TeamName    |         CS411          | -->
+
 | Captain     | Theodoros Mamalis      |
 | Captain     | mamalis2@illinois.edu  |
 | Member1     |  Aviral Singh Halsi    |
