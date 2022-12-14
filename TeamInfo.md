@@ -27,8 +27,9 @@
 |   Info      |        Description     |
 | ----------- | ---------------------- |
 |  Title      |       Matching Restaurants and Home-Cooks with Customers  |
-<!-- | System URL  |      link_to_system    | -->
 | Video Link  |      [link_to_video](https://drive.google.com/file/d/1uPnbddgK_rxBwGImTZbYsNTAcOKAiH8x/view?usp=sharing)     | 
+
+<!-- | System URL  |      link_to_system    | -->
 
 ## Project Summary
 
