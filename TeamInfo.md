@@ -4,8 +4,8 @@
 
 |   Info      |        Description     |
 | ----------- | ---------------------- |
-| TeamID      |        Team-065        |
-| TeamName    |         CS411          |
+<!-- | TeamID      |        Team-065        |
+| TeamName    |         CS411          | -->
 | Captain     | Theodoros Mamalis      |
 | Captain     | mamalis2@illinois.edu  |
 | Member1     |  Aviral Singh Halsi    |
@@ -20,8 +20,8 @@
 |   Info      |        Description     |
 | ----------- | ---------------------- |
 |  Title      |       Matching Restaurants and Home-Cooks with Customers  |
-| System URL  |      link_to_system    |
-| Video Link  |      link_to_video     |
+<!-- | System URL  |      link_to_system    |
+| Video Link  |      link_to_video     | -->
 
 ## Project Summary
 
