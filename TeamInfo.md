@@ -1,6 +1,4 @@
-# A-team065-CS411
-
-## Basic Information
+# Basic Information
 
 <!-- |   Info      |        Description     |
 | ----------- | ---------------------- |
