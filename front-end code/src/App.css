@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background-color: #FF8000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h1 {
+  position: relative;
+  font-size: 30px;
+  color: white;
+} 
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.list li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list li div {
+  font-size: 24px;
+  color: white;
+}
+
+.loader {
+  position: relative;
+  min-height: 29vh;
+  text-align: center;
+  padding-top: 20vh;
+  background-color: #FF8000;
+  color: white;
+}
+
+.background-image {
+  background-image: url('../public/banner1.jpg');
+  margin: auto;
+  height: 252px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background-image1 {
+  background-image: url('../public/banner3.jpg');
+  margin: auto;
+  height: 252px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-container {
+  background-color: #FBFCFC;
+  padding-bottom: 20px;
+  min-height: 81vh;
+}
+
+.hook {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hook1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.search-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 188px;
+  padding: 20px;
+}
+
+.home-form-control {
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  border: 2px solid #808080;
+  border-radius: 200px;
+  width: 200%;
+}
+
+.search-button {
+  background-color: #572AF8;
+  color: white;
+  padding: 10px;
+  border-radius: 200px;
+  font-size: 20px;
+  border: 2px solid #572AF8;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.isLoadingQuery {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.table {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+  background-color: #FF8000;
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+ 
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+.table tbody tr:nth-of-type(even) {
+   background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #FF8000;
+}
+
+.admin-container, .create-container, .updelete-container, .login-container {
+  position: relative;
+  min-height: 79vh;
+  padding-bottom: 5vh;
+  background-color: #FF8000;
+}
+
+.footer {
+  padding: 12px;
+  background-color: #FF8000;
+  color: white;
+  text-align: center;
+}
+
+.form-container, .create-form-container, .updelete-form-container {
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+.register-form, .create-register-form, .updelete-register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form-field, .create-form-field, .updelete-form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.btn, .btn1 {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  text-align: center;
+  background-color: #572AF8;
+  color: white;
+}
+
+.btn:hover, .btn1:hover {
+  cursor: pointer;
+}
+
+.updelete-err {
+  position: relative;
+  min-height: 48vh;
+  text-align: center;
+  padding-top: 36vh;
+}
+
+.myOrders-container {
+  background-color: #FBFCFC;
+  padding-bottom: 20px;
+  min-height: 81vh;
+  text-align: center;
+}
+
+.aq-labels {
+  padding: 30px;
+}
+
+.orderCard-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding:20px;
+}
+
+.order-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #8CD4FF;
+  color:black;
+  gap: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.no-order-history-btn {
+  background-color: #FF8000;
+  color: white;
+  padding: 13px;
+  width: fit-content;
+  position: relative;
+  left: 43%;
+  border-radius: 200px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.no-order-history-btn:hover {
+  cursor: pointer;
+}

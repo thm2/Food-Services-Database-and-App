@@ -1,0 +1,64 @@
+USE `projectdb`;
+DROP procedure IF EXISTS `calc_vendors_avg_price`;
+
+USE `projectdb`;
+DROP procedure IF EXISTS `projectdb`.`calc_vendors_avg_price`;
+;
+
+DELIMITER $$
+USE `projectdb`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `calc_vendors_avg_price`(IN vendor_id INT)
+BEGIN
+
+	DECLARE varAvgPrice REAL DEFAULT 0.0;
+	DECLARE varCustStatus VARCHAR(60);
+	DECLARE exit_loop BOOLEAN DEFAULT FALSE;
+
+	DECLARE custCur CURSOR FOR (SELECT AVG(Price) as avg_vendor_price
+									FROM vendor NATURAL JOIN menuitem
+									GROUP BY VendorId
+									HAVING VendorId = vendor_id);
+
+
+
+	DECLARE CONTINUE HANDLER FOR NOT FOUND SET exit_loop = TRUE;
+
+   DROP TABLE IF EXISTS FinalTable;
+    CREATE TABLE FinalTable(
+    AvgPrice REAL DEFAULT 0.0,
+    CustStatus VARCHAR(60)
+    );
+
+
+	OPEN custCur;
+	cloop: LOOP
+		FETCH custCur INTO varAvgPrice;       
+		IF(exit_loop) THEN
+			LEAVE cloop;
+		END IF;
+		
+		IF (varAvgPrice>100) THEN
+			SET varCustStatus = "Very Expensive";
+		ELSEIF (varAvgPrice>75) AND (varAvgPrice<=100) THEN
+			SET varCustStatus = "Expensive";
+		ELSEIF (varAvgPrice>50) AND (varAvgPrice<=75) THEN
+			SET varCustStatus = "Moderate";
+		ELSEIF (varAvgPrice>25) AND (varAvgPrice<=50) THEN
+			SET varCustStatus = "Inexpensive";
+		ELSE
+			SET varCustStatus = "Very Inexpensive";                
+		END IF;
+		INSERT INTO NewTable Values (varAvgPrice, varCustStatus);
+	
+	END LOOP cloop;
+	CLOSE custCur;
+
+
+	SELECT ROUND(AvgPrice,2) as AvgPrice, CustStatus
+    FROM FinalTable;
+    
+END$$
+
+DELIMITER ;
+;
+

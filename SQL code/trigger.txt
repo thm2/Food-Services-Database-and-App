@@ -1,0 +1,10 @@
+DROP TRIGGER IF EXISTS `projectdb`.`userauthentication_BEFORE_INSERT`;
+
+DELIMITER $$
+USE `projectdb`$$
+CREATE TRIGGER `userauthentication_BEFORE_INSERT` BEFORE INSERT ON `userauthentication` FOR EACH ROW BEGIN
+IF new.EmailAddress IN (SELECT EmailAddress FROM UserAuthentication) THEN signal sqlstate '45000' SET MESSAGE_TEXT = "This email address already exists. Please choose a different one.";
+END IF;
+
+END$$
+DELIMITER ;

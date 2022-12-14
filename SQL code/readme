@@ -1,0 +1,5 @@
+These commands concern the projectdb database hosted on Google Cloud Platform.
+
+The stored procedure takes the ID of a certain Vendor as input and returns the average price of all the menu items offered by that Vendor. It also returns as a string whether this Vendor is expensive or not compared to the average food prices of other restaurants.
+
+The trigger checks the email of a user that is trying to register to the app. If that email is already in use, the trigger is activated, and the user is prompted to register using a different email.
