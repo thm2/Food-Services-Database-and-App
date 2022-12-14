@@ -2,12 +2,10 @@
 
 ## Basic Information
 
-|   Info      |        Description     |
+<!-- |   Info      |        Description     |
 | ----------- | ---------------------- |
-
-<!-- | TeamID      |        Team-065        |
-| TeamName    |         CS411          | -->
-
+| TeamID      |        Team-065        |
+| TeamName    |         CS411          |
 | Captain     | Theodoros Mamalis      |
 | Captain     | mamalis2@illinois.edu  |
 | Member1     |  Aviral Singh Halsi    |
@@ -15,7 +13,14 @@
 | Member2     |   Neil Rajan Prabhu    |
 | Member2     |   nprabh8@illinois.edu |
 <!-- | Member3     |        |
-| Member3     |    | -->
+| Member3     |    | --> -->
+
+
+|   Members     |
+| -----------  |
+| Theodoros Mamalis, Theodoros Mamalis        |     
+| Aviral Singh Halsi, ahalsi2@illinois.edu    |   
+| Neil Rajan Prabhu,  nprabh8@illinois.edu    | 
 
 ## Project Information
 
@@ -23,7 +28,7 @@
 | ----------- | ---------------------- |
 |  Title      |       Matching Restaurants and Home-Cooks with Customers  |
 <!-- | System URL  |      link_to_system    |
-| Video Link  |      link_to_video     | -->
+| Video Link  |      [link_to_video](https://drive.google.com/file/d/1uPnbddgK_rxBwGImTZbYsNTAcOKAiH8x/view?usp=sharing)     | -->
 
 ## Project Summary
 
