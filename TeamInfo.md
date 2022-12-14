@@ -13,12 +13,12 @@
 | Member2     |   Neil Rajan Prabhu    |
 | Member2     |   nprabh8@illinois.edu |
 <!-- | Member3     |        |
-| Member3     |    | --> -->
+| Member3     |    | -->
 
 
 |   Members     |
 | -----------  |
-| Theodoros Mamalis, Theodoros Mamalis        |     
+| Theodoros Mamalis, mamalis2@illinois.edu        |     
 | Aviral Singh Halsi, ahalsi2@illinois.edu    |   
 | Neil Rajan Prabhu,  nprabh8@illinois.edu    | 
 
