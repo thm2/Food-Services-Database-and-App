@@ -57,14 +57,6 @@ experiences (e.g. review ratings). The data will either be synthetic (e.g. for h
 orders) or real from sites such ashttps://datasetsearch.research.google.com/.
 
 ## f. Functionality:
-The tables and their attributes are presented below:
-
-User(userId,phoneNumber, Address, firstName, lastName,orders, orderId, complaints) \
-Orders(orderId,vendorId)\
-Vendor(vendorId, phoneNumber, Address, firstName,lastName, vendorName, type,
-menu)\
-Menu(restaurantId, itemName, price)\
-Coupons(couponId, discountPercentage, expiryDate)
 
 The functionalities of this application that concern CRUD and Search operations include
 inserting new rows (e.g. new dishes) to the database, or allowing the user to search for an entity
