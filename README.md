@@ -1,7 +1,15 @@
-# PROJECT PROPOSAL - team
+# PROJECT
 
-## a. Project Title: Matching restaurants and home-cooks with customers.
-b. Project Summary:
+The link for the video demo: 
+
+https://drive.google.com/file/d/1uPnbddgK_rxBwGImTZbYsNTAcOKAiH8x/view?usp=sharing
+
+## a. Project Title: 
+
+Matching restaurants and home-cooks with customers.
+
+## b. Project Summary:
+
 This project considers an application which matches customers to food-services. More
 specifically, restaurants and home-cooks will be able to register to the application, post their
 menus and receive orders from customers. Some of the features of the application are specifying
@@ -12,7 +20,8 @@ to sell food to customers, either because they wish to demonstrate their cooking
 culture’s cuisine, or make extra profit out of this service. Moreover, this enables customers to
 find food even when most restaurants are past their closing time.
 
-c. Description:
+## c. Description:
+
 This application aims to expand food-service choices for customers wishing to receive food
 services by extending food-service hours, offering a greater cuisine variety, and possibly a larger
 area of service. Moreover, home-cooks wishing to test their cooking skills and showcase their
@@ -25,7 +34,8 @@ while the customers will have more food options available. Restaurants can profi
 application as well given that a part of the customer population will choose a restaurant as its
 dining option.
 
-d. Usefulness:
+## d. Usefulness:
+
 This application is similar to applications such as Grubhub, or Doordash. What makes this
 application novel is the inclusion of home-cooks. Home-cooks that register with the application
 could provide food services to customers even when most restaurants are closed. Moreover,
@@ -38,14 +48,15 @@ rural) could be potentially served by a local that is registered with the applic
 such services. Restaurants will be included in this application since their operating hours could
 be more stable than those of the home-cooks offering a more robust selection of food-services.
 
-e. Realness:
+## e. Realness:
+
 The data will concern details about various food-service providers, that is, restaurants and
 home-cooks (e.g. providerId, location etc.) for a choice of areas/cities, customer data (e.g.
 customerId, name etc.), order data (e.g. orderId etc). It will possibly include data about customer
 experiences (e.g. review ratings). The data will either be synthetic (e.g. for home cooks, or
 orders) or real from sites such ashttps://datasetsearch.research.google.com/.
 
-f. Functionality:
+## f. Functionality:
 The tables and their attributes are presented below:
 
 User(userId,phoneNumber, Address, firstName, lastName,orders, orderId, complaints)
@@ -54,6 +65,7 @@ Vendor(vendorId, phoneNumber, Address, firstName,lastName, vendorName, type,
 menu)
 Menu(restaurantId, itemName, price)
 Coupons(couponId, discountPercentage, expiryDate)
+
 The functionalities of this application that concern CRUD and Search operations include
 inserting new rows (e.g. new dishes) to the database, or allowing the user to search for an entity
 (e.g. restaurant) and return the result to the interface. Moreover, they include updating records on
