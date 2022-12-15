@@ -64,7 +64,7 @@ inserting new rows (e.g. new dishes) to the database, or allowing the user to se
 the database (e.g. update existing prices for dishes) and deleting rows from the database (e.g. a
 dish is no longer being made, or a restaurant delete its account with the application). Also, they
 will include advanced SQL queries such as Subqueries, and Aggregation and Group By (e.g.
-when a customer asks for the average price of all the dishes of a restaurant). Moreover,
-functionalities will contain triggers (e.g. when a customer enters an invalid restaurantId a trigger
+when a customer asks for the average price of all the dishes of a vendor). Moreover,
+functionalities will contain triggers (e.g. when a customer enters an invalid vendorId a trigger
 will be activated) and procedures (e.g. when a user wants to calculate the average price of all the
-items of a restaurant).
+items of a vendor).
