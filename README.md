@@ -54,7 +54,7 @@ The data will concern details about various food-service providers, that is, res
 home-cooks (e.g. providerId, location etc.) for a choice of areas/cities, customer data (e.g.
 customerId, name etc.), order data (e.g. orderId etc). It will possibly include data about customer
 experiences (e.g. review ratings). The data will either be synthetic (e.g. for home cooks, or
-orders) or real from sites such ashttps://datasetsearch.research.google.com/.
+orders) or real from sites such as https://datasetsearch.research.google.com/.
 
 ## f. Functionality:
 
