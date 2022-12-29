@@ -24,9 +24,7 @@ find food even when most restaurants are past their closing time.
 
 This application aims to expand food-service choices for customers wishing to receive food
 services by extending food-service hours, offering a greater cuisine variety, and possibly a larger
-area of service. Moreover, home-cooks wishing to test their cooking skills and showcase their
-
-are enabled to do that. Restaurants will also be included in the application as they are the main
+area of service. Moreover, home-cooks wishing to test their cooking skills, showcase their dishes or use this app as another source of income are enabled to do that. Restaurants will also be included in the application as they are the main
 food-service providers in most areas.
 
 This ensures that local home-cooks are able to profit from part-time (or even full-time) cooking
